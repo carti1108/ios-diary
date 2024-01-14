@@ -7,24 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F22885C2B50EC71007891B3 /* DiaryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F22885A2B50EC71007891B3 /* DiaryModel.xcdatamodeld */; };
+		4F22885F2B50EFCD007891B3 /* DiaryMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F22885D2B50EFCD007891B3 /* DiaryMO+CoreDataClass.swift */; };
+		4F2288602B50EFCD007891B3 /* DiaryMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F22885E2B50EFCD007891B3 /* DiaryMO+CoreDataProperties.swift */; };
+		4F9642A42B52DA5B000B5539 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9642A32B52DA5B000B5539 /* CoreDataManager.swift */; };
+		4F9642A62B52F17B000B5539 /* CoreDataManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9642A52B52F17B000B5539 /* CoreDataManagable.swift */; };
+		4FFAFCB92B47DB4900F119E0 /* Collection+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFAFCB82B47DB4800F119E0 /* Collection+.swift */; };
+		B9D839362B452B750009639F /* DiaryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D839352B452B750009639F /* DiaryItemCell.swift */; };
+		B9D839382B4535400009639F /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D839372B4535400009639F /* Diary.swift */; };
+		B9D8393A2B45551E0009639F /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D839392B45551E0009639F /* DiaryDetailViewController.swift */; };
+		B9D839412B47D71B0009639F /* ReuseIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D839402B47D71B0009639F /* ReuseIdentifying.swift */; };
+		B9D839432B47D7C30009639F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D839422B47D7C30009639F /* Launch Screen.storyboard */; };
 		C739AE25284DF28600741E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739AE24284DF28600741E8F /* AppDelegate.swift */; };
 		C739AE27284DF28600741E8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739AE26284DF28600741E8F /* SceneDelegate.swift */; };
-		C739AE29284DF28600741E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739AE28284DF28600741E8F /* ViewController.swift */; };
-		C739AE2C284DF28600741E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C739AE2A284DF28600741E8F /* Main.storyboard */; };
-		C739AE2F284DF28600741E8F /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C739AE2D284DF28600741E8F /* Diary.xcdatamodeld */; };
+		C739AE29284DF28600741E8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C739AE28284DF28600741E8F /* HomeViewController.swift */; };
 		C739AE31284DF28600741E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C739AE30284DF28600741E8F /* Assets.xcassets */; };
-		C739AE34284DF28600741E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C739AE32284DF28600741E8F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F22885B2B50EC71007891B3 /* DiaryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiaryModel.xcdatamodel; sourceTree = "<group>"; };
+		4F22885D2B50EFCD007891B3 /* DiaryMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4F22885E2B50EFCD007891B3 /* DiaryMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4F9642A32B52DA5B000B5539 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		4F9642A52B52F17B000B5539 /* CoreDataManagable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagable.swift; sourceTree = "<group>"; };
+		4FFAFCB82B47DB4800F119E0 /* Collection+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+.swift"; sourceTree = "<group>"; };
+		B9D839352B452B750009639F /* DiaryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryItemCell.swift; sourceTree = "<group>"; };
+		B9D839372B4535400009639F /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		B9D839392B45551E0009639F /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		B9D839402B47D71B0009639F /* ReuseIdentifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifying.swift; sourceTree = "<group>"; };
+		B9D839422B47D7C30009639F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C739AE21284DF28600741E8F /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C739AE24284DF28600741E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C739AE26284DF28600741E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C739AE28284DF28600741E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C739AE2B284DF28600741E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C739AE2E284DF28600741E8F /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
+		C739AE28284DF28600741E8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C739AE30284DF28600741E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C739AE33284DF28600741E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C739AE35284DF28600741E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,9 +55,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F2288122B4D26CE007891B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F2288172B4D2761007891B3 /* Protocol */,
+				4F2288162B4D2754007891B3 /* Extension */,
+				B9D839372B4535400009639F /* Diary.swift */,
+				4F9642A32B52DA5B000B5539 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F2288132B4D26E7007891B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9D839352B452B750009639F /* DiaryItemCell.swift */,
+				B9D839422B47D7C30009639F /* Launch Screen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F2288142B4D26EF007891B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C739AE28284DF28600741E8F /* HomeViewController.swift */,
+				B9D839392B45551E0009639F /* DiaryDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4F2288152B4D2744007891B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C739AE24284DF28600741E8F /* AppDelegate.swift */,
+				C739AE26284DF28600741E8F /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4F2288162B4D2754007891B3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FFAFCB82B47DB4800F119E0 /* Collection+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4F2288172B4D2761007891B3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B9D839402B47D71B0009639F /* ReuseIdentifying.swift */,
+				4F9642A52B52F17B000B5539 /* CoreDataManagable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		C739AE18284DF28600741E8F = {
 			isa = PBXGroup;
 			children = (
+				4F22885D2B50EFCD007891B3 /* DiaryMO+CoreDataClass.swift */,
+				4F22885E2B50EFCD007891B3 /* DiaryMO+CoreDataProperties.swift */,
 				C739AE23284DF28600741E8F /* Diary */,
 				C739AE22284DF28600741E8F /* Products */,
 			);
@@ -58,14 +131,13 @@
 		C739AE23284DF28600741E8F /* Diary */ = {
 			isa = PBXGroup;
 			children = (
-				C739AE24284DF28600741E8F /* AppDelegate.swift */,
-				C739AE26284DF28600741E8F /* SceneDelegate.swift */,
-				C739AE28284DF28600741E8F /* ViewController.swift */,
-				C739AE2A284DF28600741E8F /* Main.storyboard */,
+				4F2288152B4D2744007891B3 /* Resource */,
+				4F2288142B4D26EF007891B3 /* Controller */,
+				4F2288132B4D26E7007891B3 /* View */,
+				4F2288122B4D26CE007891B3 /* Model */,
 				C739AE30284DF28600741E8F /* Assets.xcassets */,
-				C739AE32284DF28600741E8F /* LaunchScreen.storyboard */,
 				C739AE35284DF28600741E8F /* Info.plist */,
-				C739AE2D284DF28600741E8F /* Diary.xcdatamodeld */,
+				4F22885A2B50EC71007891B3 /* DiaryModel.xcdatamodeld */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -128,9 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C739AE34284DF28600741E8F /* LaunchScreen.storyboard in Resources */,
+				B9D839432B47D7C30009639F /* Launch Screen.storyboard in Resources */,
 				C739AE31284DF28600741E8F /* Assets.xcassets in Resources */,
-				C739AE2C284DF28600741E8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +212,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C739AE29284DF28600741E8F /* ViewController.swift in Sources */,
+				C739AE29284DF28600741E8F /* HomeViewController.swift in Sources */,
 				C739AE25284DF28600741E8F /* AppDelegate.swift in Sources */,
+				4FFAFCB92B47DB4900F119E0 /* Collection+.swift in Sources */,
+				B9D839362B452B750009639F /* DiaryItemCell.swift in Sources */,
+				B9D8393A2B45551E0009639F /* DiaryDetailViewController.swift in Sources */,
 				C739AE27284DF28600741E8F /* SceneDelegate.swift in Sources */,
-				C739AE2F284DF28600741E8F /* Diary.xcdatamodeld in Sources */,
+				4F9642A42B52DA5B000B5539 /* CoreDataManager.swift in Sources */,
+				4F9642A62B52F17B000B5539 /* CoreDataManagable.swift in Sources */,
+				B9D839412B47D71B0009639F /* ReuseIdentifying.swift in Sources */,
+				4F2288602B50EFCD007891B3 /* DiaryMO+CoreDataProperties.swift in Sources */,
+				4F22885F2B50EFCD007891B3 /* DiaryMO+CoreDataClass.swift in Sources */,
+				4F22885C2B50EC71007891B3 /* DiaryModel.xcdatamodeld in Sources */,
+				B9D839382B4535400009639F /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C739AE2A284DF28600741E8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C739AE2B284DF28600741E8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C739AE32284DF28600741E8F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C739AE33284DF28600741E8F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C739AE36284DF28600741E8F /* Debug */ = {
@@ -297,10 +358,9 @@
 				INFOPLIST_FILE = Diary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,10 +385,9 @@
 				INFOPLIST_FILE = Diary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,13 +425,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C739AE2D284DF28600741E8F /* Diary.xcdatamodeld */ = {
+		4F22885A2B50EC71007891B3 /* DiaryModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C739AE2E284DF28600741E8F /* Diary.xcdatamodel */,
+				4F22885B2B50EC71007891B3 /* DiaryModel.xcdatamodel */,
 			);
-			currentVersion = C739AE2E284DF28600741E8F /* Diary.xcdatamodel */;
-			path = Diary.xcdatamodeld;
+			currentVersion = 4F22885B2B50EC71007891B3 /* DiaryModel.xcdatamodel */;
+			path = DiaryModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
